@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+#This script lists all non-hidden files and prints the part of it
+for file in *; do
+if [[ -f "$file" && "$file" == *-* ]]; then
+echo "${file#*-}"
+fi
+done

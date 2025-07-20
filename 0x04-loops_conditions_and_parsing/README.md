@@ -1,1 +1,2 @@
-added a README.d file
+Read
+hello , this is my readme file
